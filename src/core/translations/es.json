@@ -1,0 +1,9 @@
+{
+  "defination": "Soy {name}, y completé la tarea de Desarrollador Front de nivel intermedio en la empresa {company}.",
+  "hello_world": "Hello, World!",
+  "welcome": "Bienvenido",
+  "about": {
+    "title": "Soluciones Visión por Computador Todo en Uno.",
+    "desc": "Realice fácilmente sus operaciones de control de calidad, seguimiento, recuento y clasificación en producción con las soluciones de IA de {company}."
+  }
+}

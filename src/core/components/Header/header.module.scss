@@ -1,0 +1,24 @@
+@import '../../styes/globals.scss';
+
+.headerWrap {
+    @apply flex flex-col;
+
+    .top {
+        @apply flex justify-between py-2 gap-1 items-center flex-wrap border-b;
+    }
+
+    .bottom {
+        @apply flex justify-between pt-2 items-end gap-2 flex-wrap;
+
+        nav.left {
+            @apply flex h-full items-center gap-3;
+            a {
+                @apply p-2 bg-gray-100 hover:bg-gray-100 rounded-t-lg ;
+                
+                &.active {
+                    @apply  bg-gray-400 text-white;
+                };
+            }
+        }
+    }
+}

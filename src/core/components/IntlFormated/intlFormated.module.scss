@@ -1,0 +1,31 @@
+.intFormatRow {
+    @apply flex flex-col gap-3 p-3 border-gray-700 border-b-2;
+
+    &Headline {
+        @apply flex flex-row gap-3;
+        p {
+            @apply flex items-center justify-start;
+            width:  160px;
+        }
+    }
+
+    &Settings {
+        @apply flex flex-col gap-3;
+
+        .row {
+            @apply flex flex-row gap-3;
+            p {
+                @apply flex items-center justify-start;
+                width:  160px;
+            }
+        }
+
+        .radioLyt {
+            @apply flex flex-row gap-3;
+            p {
+                @apply flex items-start justify-start;
+                width:  160px;
+            }
+        }
+    }
+}

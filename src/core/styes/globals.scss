@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './reset.scss';
+@import './fonts.scss';
+@import './variables.scss';
+@import "./mixins.scss";
+
+* {
+    @apply box-border;
+    font-family: $fontFamily;
+}
+
+body {
+    @apply h-screen w-screen;
+
+    #root {
+        @apply h-full w-full flex flex-col;
+    }
+
+    background: #F7FAFC;
+    font-family: $fontFamily;
+}
+
+header {
+    @apply bg-white border border-gray-400 h-fit;
+}
+
+main {
+    @apply flex flex-1 mt-6 w-screen;
+}
+
+._container {
+    @apply container mx-auto px-3;
+    max-width: 1024px;
+}
+
+.list {
+    @apply flex flex-col gap-2;
+}
+
+input[type=text],input[type=number],input[type=date] {
+    @apply outline rounded-sm text-sm leading-3 pl-2 p-1 bg-gray-50 border-gray-300 w-40;
+
+    &:active {
+        @apply border-gray-600;
+    }
+}

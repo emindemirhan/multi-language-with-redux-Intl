@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../../styes/variables.scss';
+@import "../../styes/mixins.scss";
+
+.text {
+    @apply inline-block;
+    @include textProperties();   
+}

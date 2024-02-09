@@ -1,0 +1,9 @@
+{
+  "defination": "I am {name}, and I completed the mid-level Front Developer Task at {company} company.",
+  "hello_world": "¡Hola Mundo!",
+  "welcome": "welcome",
+  "about": {
+    "title": "All-In-One Computer Vision Solutions",
+    "desc": "Easily Perform Your Quality Control, Tracking, Counting and Classification Operations in Production with {company} AI Solutions."
+  }
+}

@@ -1,0 +1,15 @@
+.langSelector {
+    @apply inline-flex flex-row w-fit relative ;
+
+    button {
+        @apply border-t border-l border-gray-300 bg-gray-50  p-2;
+
+        &:first-child { @apply border-t border-r-0 rounded-tl-md; }
+        &:last-child { @apply border-t border-r rounded-tr-md; }
+
+        &.active {
+            @apply bg-gray-400 text-white;
+        }
+    }
+
+}
